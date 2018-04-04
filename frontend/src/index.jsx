@@ -25,7 +25,7 @@ const getGreetingFromBackend = async () => {
 
 const BackendGreeting = (props) => {
   return (
-  <div><p>Backend says: {props.response[0].message}</p></div>
+  <div><p>Kahvin lämpötila on: {props.response[0].message}</p></div>
  );
 }
 
